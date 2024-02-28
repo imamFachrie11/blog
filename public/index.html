@@ -3,13 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alice&display=swap"
+      rel="stylesheet"
+    />
     <title>ai blog</title>
     <link rel="stylesheet" href="../src/output.css" />
   </head>
-  <body>
-    <!-- hero section start -->
-    <h1>haloo 👋🤚selamat datang di blog kami</h1>
+  <body class="bg-slate-950">
+    <main class="font-alice">
+      <!-- header -->
+      <!-- header -->
+      <!-- hero section start -->
+      <section class="mt-20 text-white lg:mx-auto lg:w-[80%]">
+        <div class="container">
+          <div class="px-4 py-8 lg:flex lg:flex-wrap">
+            <div class="w-full lg:w-1/2">
+              <h1
+                class="font-semibold text-2xl max-w-lg lg:text-5xl sm:text-3xl"
+              >
+                Selamat datang di
+                <span class="text-neon-blue-0">AyPedia!</span> situs belajar
+                terbaik untuk para developer.
+              </h1>
+              <div class="w-1/2 pr-4 hidden lg:block">
+                <p class="text-base lg:text-xl">
+                  apa yang ingin anda pelajari hari ini?
+                </p>
+                <div class="mt-2 relative">
+                  <label for="search-bar">
+                    <span class="cursor-pointer absolute left-2 top-1">
+                      <img
+                        src="img/icon/search-white.svg"
+                        alt="search icon"
+                        width="20px"
+                        class="mr-2 pt-1 lg:w-[25px]"
+                      />
+                    </span>
+                  </label>
+                  <input
+                    type="text"
+                    class="rounded-full bg-transparent border border-slate-500 outline-none text-center box-border px-6 w-[100%] lg:py-2"
+                    id="search-bar"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="hidden lg:block w-1/2">
+              <img src="img/hero.png" alt="books" />
+            </div>
 
-    <!-- hero section end -->
+            <div class="flex flex-wrap mt-4 lg:hidden">
+              <div class="w-1/2 pr-4">
+                <p class="text-base">apa yang ingin anda pelajari hari ini?</p>
+                <div class="mt-2">
+                  <label for="search-bar" class="">
+                    <span class="cursor-pointer absolute left-5">
+                      <img
+                        src="img/icon/search-white.svg"
+                        alt="search icon"
+                        width="20px"
+                        class="mr-2 pt-1"
+                      />
+                    </span>
+                  </label>
+                  <input
+                    type="text"
+                    class="rounded-full bg-transparent border border-slate-500 outline-none text-center box-border px-6 w-[100%]"
+                    id="search-bar"
+                  />
+                </div>
+              </div>
+              <div class="w-1/2">
+                <img src="/public/img/hero.png" alt="books" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero section end -->
+    </main>
   </body>
 </html>
