@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "neon-blue": ["#2272FF"],
+      },
+      fontFamily: {
+        alice: ["Alice"],
+      },
+    },
   },
   plugins: [],
 };
