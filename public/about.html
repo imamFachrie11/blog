@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alice&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tentang AyiPedia</title>
+    <link rel="stylesheet" href="../src/output.css" />
+  </head>
+  <body class="bg-slate-950 font-alice text-white">
+    <!-- header -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a
+              href="#hero"
+              class="font-bold text-2xl text-neon-blue-0 block py-6 lg:text-4xl lg:mx-10 lg:hover:text-white transition duration-300"
+              >AyiPedia</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-black shadow-lg border border-white rounded-lg max-w-[250px] w-full right-4 top-full lg:static lg:block lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:border-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#hero"
+                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300 lg:text-2xl"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#kategori"
+                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300 lg:text-2xl"
+                    >Kategori</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#tentang"
+                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300 lg:text-2xl"
+                    >Tentang AyiPedia</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#clients"
+                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300 lg:text-2xl"
+                    >Masuk/Daftar</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <main class="font-alice lg:mx-auto lg:w-[80%]">
+      <section id="tentang" class="mt-16">
+        <div class="container">
+          <!-- main -->
+          <div class="px-4 py-8 block lg:flex lg:flex-wrap">
+            <div class="w-full lg:w-1/2 px-4">
+              <h1 class="font-bold text-3xl lg:text-5xl mb-2 lg:mb-4">
+                Tentang AyiPedia
+              </h1>
+              <p class="text-xl lg:text-2xl">
+                Selamat datang di AyiPedia, rumah bagi pengetahuan seputar
+                pemrograman, pengembangan web, dan gaya hidup modern. Saya,
+                Mochammad Imam Fachrie, dengan penuh semangat menyambut Anda di
+                dunia AyiPedia.
+              </p>
+            </div>
+
+            <div class="w-full lg:w-1/2 px-4">
+              <img
+                src="img/about-icon/world-book-day.png"
+                alt="world and books"
+                width="80%"
+              />
+            </div>
+          </div>
+
+          <!-- about me -->
+          <div class="px-4">
+            <div class="">
+              <img
+                src="img/about-icon/programmer.png"
+                alt="programmers"
+                width="120px"
+              />
+            </div>
+            <h2 class="font-medium text-3xl lg:text-4xl">Siapa saya?</h2>
+            <p class="text-xl mt-2 lg:text-2xl">
+              Saya adalah seorang pengembang web dan penggiat teknologi yang
+              memiliki kecintaan mendalam terhadap dunia pemrograman. Dengan
+              visi untuk berbagi pengetahuan, AyiPedia lahir sebagai proyek
+              pribadi saya yang berdedikasi untuk menyediakan informasi
+              bermanfaat, tutorial, dan inspirasi dalam bidang teknologi dan
+              gaya hidup.
+            </p>
+          </div>
+          <!-- about me end -->
+          <!-- list -->
+          <div class="px-4 py-12 lg:flex lg:flex-wrap">
+            <div class="w-full lg:w-1/2">
+              <h2 class="font-bold text-3xl lg:text-5xl max-w-xl">
+                AyiPedia: Pintu Gerbang Pengetahuan
+              </h2>
+              <br />
+              <p class="text-xl lg:text-2xl">
+                AyiPedia bukan sekadar situs, tetapi pintu gerbang bagi mereka
+                yang ingin mengeksplorasi dan memahami dunia teknologi. Kami
+                menyediakan beragam konten berkualitas tinggi yang mencakup:
+              </p>
+              <br />
+              <div class="px-4 text-xl">
+                <ul class="list-disc">
+                  <li class="pb-2">
+                    <p class="lg:text-2xl">
+                      <span class="font-semibold lg:text-2xl"
+                        >Pemrograman:</span
+                      >
+                      Temukan panduan praktis, tips, dan trik terkini dalam
+                      dunia pemrograman. Mulai dari bahasa pemrograman populer
+                      hingga konsep-konsep tingkat lanjut.
+                    </p>
+                  </li>
+                  <li class="py-2">
+                    <p class="lg:text-2xl">
+                      <span class="font-semibold lg:text-2xl"
+                        >web development:</span
+                      >
+                      Pelajari cara membuat situs web yang menakjubkan,
+                      optimalisasi kinerja, dan praktik-praktik terbaik dalam
+                      dunia pengembangan web modern.
+                    </p>
+                  </li>
+                  <li class="py-2">
+                    <p class="lg:text-2xl">
+                      <span class="font-semibold lg:text-2xl">Gaya hidup</span>
+                      Jelajahi aspek-aspek gaya hidup yang sesuai dengan era
+                      digital, termasuk kesehatan digital, keseimbangan
+                      kerja-hidup, dan tips untuk hidup produktif di dunia yang
+                      terus berubah.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 box-border lg:pl-8">
+              <div class="w-full my-8">
+                <div class="flex items-center justify-center">
+                  <img
+                    src="img/icon/handshake.png"
+                    alt="handshake"
+                    class="w-[100px] my-4 mr-2"
+                  />
+                  <div>
+                    <h3 class="text-2xl font-medium">Terpercaya</h3>
+                    <p>
+                      AyiPedia berkomitmen menyajikan informasi yang didapatkan
+                      dari sumber terpercaya dan teruji.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full my-8">
+                <div class="flex items-center justify-center">
+                  <img
+                    src="img/icon/achievement.png"
+                    alt="handshake"
+                    class="w-[100px] my-4 mr-2"
+                  />
+                  <div>
+                    <h3 class="text-2xl font-medium">Fokus pada Kualitas</h3>
+                    <p>
+                      Kualitas adalah kunci, dan AyiPedia mengedepankan kualitas
+                      dalam setiap aspeknya.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full my-8">
+                <div class="flex items-center justify-center">
+                  <img
+                    src="img/icon/device.png"
+                    alt="handshake"
+                    class="w-[100px] my-4 mr-2"
+                  />
+                  <div>
+                    <h3 class="text-2xl font-medium">Responsive</h3>
+                    <p>
+                      AyiPedia dirancang untuk menjadi responsif dan mudah
+                      diakses dari berbagai perangkat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full my-8">
+                <div class="flex items-center justify-center">
+                  <img
+                    src="img/icon/retreat.png"
+                    alt="handshake"
+                    class="w-[100px] my-4 mr-2"
+                  />
+                  <div>
+                    <h3 class="text-2xl font-medium">Menyenangkan</h3>
+                    <p>
+                      Website ini dirancang untuk memberikan pengalaman
+                      pembelajaran yang menyenangkan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="mt-80"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

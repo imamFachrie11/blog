@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Alice&display=swap"
       rel="stylesheet"
     />
-    <title>ai blog</title>
+    <title>AyiPedia</title>
     <link rel="stylesheet" href="../src/output.css" />
   </head>
   <body class="bg-slate-950 font-alice text-white">
@@ -22,7 +22,7 @@
           <div class="px-4">
             <a
               href="#hero"
-              class="font-bold text-lg text-neon-blue-0 block py-6 lg:text-4xl lg:mx-10 lg:hover:text-white transition duration-300"
+              class="font-bold text-2xl text-neon-blue-0 block py-6 lg:text-4xl lg:mx-10 lg:hover:text-white transition duration-300"
               >AyiPedia</a
             >
           </div>
@@ -51,28 +51,28 @@
                 <li class="group">
                   <a
                     href="#hero"
-                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300"
+                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300 lg:text-2xl"
                     >Home</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#kategori"
-                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300"
+                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300 lg:text-2xl"
                     >Kategori</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#tentang"
-                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300"
+                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300 lg:text-2xl"
                     >Tentang AyiPedia</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#clients"
-                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300"
+                    class="text-base text-white py-2 mx-8 flex group-hover:text-neon-blue-0 transition duration-300 lg:text-2xl"
                     >Masuk/Daftar</a
                   >
                 </li>
@@ -85,20 +85,20 @@
     <!-- header end -->
     <main class="font-alice lg:mx-auto lg:w-[80%]">
       <!-- hero section start -->
-      <section class="mt-20 text-white">
+      <section class="lg:mt-32 mt-20 text-white">
         <div class="container">
           <div class="px-4 py-8 lg:flex lg:flex-wrap">
             <div class="w-full lg:w-1/2">
               <h1
-                class="font-semibold text-2xl max-w-lg lg:text-5xl sm:text-3xl"
+                class="font-semibold text-2xl max-w-xl lg:text-6xl sm:text-3xl"
               >
                 Selamat datang di
                 <span class="text-neon-blue-0">AyiPedia!</span> situs belajar
                 terbaik untuk para developer.
               </h1>
-              <div class="w-1/2 pr-4 hidden lg:block">
-                <p class="text-base lg:text-xl">
-                  apa yang ingin anda pelajari hari ini?
+              <div class="pr-4 hidden lg:block">
+                <p class="text-2xl mt-6 mb-2">
+                  Apa yang ingin anda pelajari hari ini?
                 </p>
                 <div class="mt-2 relative">
                   <label for="search-bar">
@@ -113,7 +113,7 @@
                   </label>
                   <input
                     type="text"
-                    class="rounded-full bg-transparent border border-slate-500 outline-none text-center box-border px-6 w-[100%] lg:py-2"
+                    class="rounded-full bg-transparent border border-slate-500 outline-none text-center box-border px-6 w-full lg:py-2"
                     id="search-bar"
                   />
                 </div>
@@ -125,7 +125,7 @@
 
             <div class="flex flex-wrap mt-4 lg:hidden">
               <div class="w-1/2 pr-4">
-                <p class="text-base">apa yang ingin anda pelajari hari ini?</p>
+                <p class="text-xl">apa yang ingin anda pelajari hari ini?</p>
                 <div class="mt-2">
                   <label for="search-bar" class="">
                     <span class="cursor-pointer absolute left-5">
@@ -154,17 +154,19 @@
       <!-- hero section end -->
 
       <!-- article section -->
-      <section class="px-4">
+      <section class="px-4 lg:mb-16">
         <div class="container">
           <div class="w-full mb-4">
-            <h2 class="font-semibold text-lg text-neon-blue-0">
+            <h2 class="font-semibold text-lg text-neon-blue-0 lg:text-3xl">
+             <div class="w-5 lg:w-10 inline-block">
               <img
                 src="img/icon/noun-increase-2500238.png"
                 alt="increase icon"
-                class="inline-block w-[20px]"
               />
+              </div>
               Artikel paling banyak dicari
             </h2>
+          </div>
           </div>
 
           <div class="flex flex-wrap gap-3 lg:gap-5 ml-3">
@@ -179,14 +181,14 @@
               <div class="mt-2 px-2 pb-1">
                 <a
                   href="#"
-                  class="text- text-base group-hover:text-neon-blue-0 hover:cursor-pointer transition duration-200"
+                  class="artikel-word"
                 >
                   Menjadi web developer di 2024.
                 </a>
               </div>
             </div>
             <div
-              class="w-[45%] rounded-md overflow-hidden bg-black shadow-sm shadow-white lg:w-1/6"
+              class="w-[45%] rounded-md overflow-hidden bg-black shadow-sm shadow-white lg:w-1/6 group cursor-pointer"
             >
               <img
                 src="img/blog/2.jpg"
@@ -196,156 +198,157 @@
               <div class="mt-2 px-2 pb-1">
                 <a
                   href="#"
-                  class="text-white text-base hover:text-neon-blue-0 hover:cursor-pointer transition duration-200"
+                  class="artikel-word"
                 >
                   Apa itu git dan github?
                 </a>
               </div>
             </div>
             <div
-              class="w-[45%] rounded-md overflow-hidden bg-black shadow-sm shadow-white lg:w-1/6"
+              class="w-[45%] rounded-md overflow-hidden bg-black shadow-sm shadow-white lg:w-1/6 group cursor-pointer"
             >
               <img
                 src="img/blog/3.jpg"
                 alt="web development"
                 class="w-full shadow-lg object-cover object-center"
               />
-              <div class="mt-2 px-2 pb-1">
+              <div class="mt-2 px-2 pb-1 ">
                 <a
                   href="#"
-                  class="text-white text-base hover:text-neon-blue-0 hover:cursor-pointer transition duration-200"
+                  class="artikel-word"
                 >
                   Pengertian, jenis, dan cara kerja sdlc
                 </a>
               </div>
             </div>
             <div
-              class="w-[45%] rounded-md overflow-hidden bg-black shadow-sm shadow-white lg:w-1/6"
+              class="w-[45%] rounded-md overflow-hidden bg-black shadow-sm shadow-white lg:w-1/6 group cursor-pointer"
             >
               <img
                 src="img/blog/4.jpg"
                 alt="web development"
                 class="w-full shadow-lg object-cover object-top"
               />
-              <div class="mt-2 px-2 pb-1">
+              <div class="mt-2 px-2 pb-1 ">
                 <a
                   href="#"
-                  class="text-white text-base hover:text-neon-blue-0 hover:cursor-pointer transition duration-200"
+                  class="artikel-word"
                 >
                   Javascript fundamental
                 </a>
               </div>
             </div>
             <div
-              class="w-[45%] rounded-md overflow-hidden bg-black shadow-sm shadow-white lg:w-1/6"
+              class="w-[45%] rounded-md overflow-hidden bg-black shadow-sm shadow-white lg:w-1/6 group cursor-pointer"
             >
               <img
                 src="img/blog/5.jpg"
                 alt="web development"
                 class="w-full shadow-lg object-cover object-top"
               />
-              <div class="mt-2 px-2 pb-1">
+              <div class="mt-2 px-2 pb-1 ">
                 <a
                   href="#"
-                  class="text-white text-base hover:text-neon-blue-0 hover:cursor-pointer transition duration-200"
+                  class="artikel-word"
                 >
                   manfaat keyboard mechanical
                 </a>
               </div>
             </div>
           </div>
-          <div class="w-full mb-4 mt-8">
-            <h2 class="font-semibold text-lg text-neon-blue-0">
+          <div class="w-full mb-4 mt-12">
+            <h2 class="font-semibold text-lg lg:text-3xl text-neon-blue-0">
+              <div class="inline-block w-4 lg:w-8">
               <img
                 src="img/icon/recommendation.png"
                 alt="increase icon"
-                class="inline-block w-[20px]"
               />
-              Rekomendasi tim ayiPe
+              </div>
+              Rekomendasi tim AyiPedia
             </h2>
           </div>
 
           <div class="flex flex-wrap gap-3 lg:gap-5 ml-3">
             <div
-              class="w-[45%] rounded-md overflow-hidden bg-black shadow-md shadow-white lg:w-1/6"
+              class="w-[45%] rounded-md overflow-hidden bg-black shadow-md shadow-white lg:w-1/6 group cursor-pointer"
             >
               <img
                 src="img/blog/6.jpg"
                 alt="web development"
                 class="w-full shadow-lg object-cover object-top"
               />
-              <div class="mt-2 px-2 pb-1">
+              <div class="mt-2 px-2 pb-1 ">
                 <a
                   href="#"
-                  class="text-white text-base hover:text-neon-blue-0 hover:cursor-pointer transition duration-200"
+                  class="artikel-word"
                 >
                   Buku wajib untuk web developer.
                 </a>
               </div>
             </div>
             <div
-              class="w-[45%] rounded-md overflow-hidden bg-black shadow-md shadow-white lg:w-1/6"
+              class="w-[45%] rounded-md overflow-hidden bg-black shadow-md shadow-white lg:w-1/6 group cursor-pointer"
             >
               <img
                 src="img/blog/7.jpg"
                 alt="web development"
                 class="w-full shadow-lg object-cover object-top"
               />
-              <div class="mt-2 px-2 pb-1">
+              <div class="mt-2 px-2 pb-1 ">
                 <a
                   href="#"
-                  class="text-white text-base hover:text-neon-blue-0 hover:cursor-pointer transition duration-200"
+                  class="artikel-word"
                 >
                   Cara menjadi lebih produktif
                 </a>
               </div>
             </div>
             <div
-              class="w-[45%] rounded-md overflow-hidden bg-black shadow-md shadow-white lg:w-1/6"
+              class="w-[45%] rounded-md overflow-hidden bg-black shadow-md shadow-white lg:w-1/6 group cursor-pointer"
             >
               <img
                 src="img/blog/8.jpg"
                 alt="web development"
                 class="w-full shadow-lg object-cover object-center"
               />
-              <div class="mt-2 px-2 pb-1">
+              <div class="mt-2 px-2 pb-1 ">
                 <a
                   href="#"
-                  class="text-white text-base hover:text-neon-blue-0 hover:cursor-pointer transition duration-200"
+                  class="artikel-word"
                 >
                   pentingnya mengatasi setres di dunia kerja
                 </a>
               </div>
             </div>
             <div
-              class="w-[45%] rounded-md overflow-hidden bg-black shadow-md shadow-white lg:w-1/6"
+              class="w-[45%] rounded-md overflow-hidden bg-black shadow-md shadow-white lg:w-1/6 group cursor-pointer"
             >
               <img
                 src="img/blog/9.jpg"
                 alt="web development"
                 class="w-full shadow-lg object-cover object-top"
               />
-              <div class="mt-2 px-2 pb-1">
+              <div class="mt-2 px-2 pb-1 ">
                 <a
                   href="#"
-                  class="text-white text-base hover:text-neon-blue-0 hover:cursor-pointer transition duration-200"
+                  class="artikel-word"
                 >
                   Manfaat konsumsi kopi bagi programmer
                 </a>
               </div>
             </div>
             <div
-              class="w-[45%] rounded-md overflow-hidden bg-black shadow-md shadow-white lg:w-1/6"
+              class="w-[45%] rounded-md overflow-hidden bg-black shadow-md shadow-white lg:w-1/6 group cursor-pointer"
             >
               <img
                 src="img/blog/10.jpg"
                 alt="web development"
                 class="w-full shadow-lg object-cover object-top"
               />
-              <div class="mt-2 px-2 pb-1">
+              <div class="mt-2 px-2 pb-1 ">
                 <a
                   href="#"
-                  class="text-white text-base hover:text-neon-blue-0 hover:cursor-pointer transition duration-200"
+                  class="artikel-word"
                 >
                   cara menangkan pertemanan dan pengaruhi orang lain.
                 </a>
@@ -356,6 +359,136 @@
       </section>
 
       <!-- article section end-->
+
+      <!-- about section -->
+      <section id="tentang" class="mt-16">
+        <div class="container">
+          <div class="px-4 py-12 lg:flex lg:flex-wrap">
+            <div class="w-full lg:w-1/2">
+              <h2 class="font-bold text-3xl lg:text-5xl max-w-xl">
+                AyiPedia: Pintu Gerbang Pengetahuan
+              </h2>
+              <br />
+              <p class="text-xl lg:text-2xl">
+                AyiPedia bukan sekadar situs, tetapi pintu gerbang bagi mereka
+                yang ingin mengeksplorasi dan memahami dunia teknologi. Kami
+                menyediakan beragam konten berkualitas tinggi yang mencakup:
+              </p>
+              <br />
+              <div class="px-4 text-xl">
+                <ul class="list-disc">
+                  <li class="pb-2">
+                    <p class="lg:text-2xl">
+                    <span class="font-semibold lg:text-2xl">Pemrograman:</span>
+                    Temukan panduan praktis, tips, dan trik terkini dalam dunia
+                    pemrograman. Mulai dari bahasa pemrograman populer hingga
+                    konsep-konsep tingkat lanjut.
+                  </p>
+                  </li>
+                  <li class="py-2">
+                    <p class="lg:text-2xl">
+                    <span class="font-semibold lg:text-2xl">web development:</span> Pelajari
+                    cara membuat situs web yang menakjubkan, optimalisasi
+                    kinerja, dan praktik-praktik terbaik dalam dunia
+                    pengembangan web modern.
+                  </p>
+                  </li>
+                  <li class="py-2">
+                    <p class="lg:text-2xl">
+                    <span class="font-semibold lg:text-2xl">Gaya hidup</span> Jelajahi
+                      aspek-aspek gaya hidup yang sesuai dengan era digital,
+                      termasuk kesehatan digital, keseimbangan kerja-hidup, dan
+                      tips untuk hidup produktif di dunia yang terus berubah.</p>
+                  </li>
+                </ul>
+                <a href="about.html" target="_blank">
+                <div
+                  class="px-5 py-3 border rounded-full text-center hidden lg:block my-4 group cursor-pointer hover:bg-slate-800 transition duration-300"
+                >
+                  <h3 class="group-hover:text-white font-medium text-neon-blue-0 text-2xl transition duration-300">
+                    Jelajahi lebih banyak tentang kami
+                  </h3>
+                </div>
+              </a>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 box-border lg:pl-8">
+              <div class="w-full my-8">
+                <div class="flex items-center justify-center">
+                  <img
+                    src="img/icon/handshake.png"
+                    alt="handshake"
+                    class="w-[100px] my-4 mr-2"
+                  />
+                  <div>
+                    <h3 class="text-2xl font-medium">Terpercaya</h3>
+                    <p>
+                      AyiPedia berkomitmen menyajikan informasi yang didapatkan
+                      dari sumber terpercaya dan teruji.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full my-8">
+                <div class="flex items-center justify-center">
+                  <img
+                    src="img/icon/achievement.png"
+                    alt="handshake"
+                    class="w-[100px] my-4 mr-2"
+                  />
+                  <div>
+                    <h3 class="text-2xl font-medium">Fokus pada Kualitas</h3>
+                    <p>
+                      Kualitas adalah kunci, dan AyiPedia mengedepankan kualitas
+                      dalam setiap aspeknya.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full my-8">
+                <div class="flex items-center justify-center">
+                  <img
+                    src="img/icon/device.png"
+                    alt="handshake"
+                    class="w-[100px] my-4 mr-2"
+                  />
+                  <div>
+                    <h3 class="text-2xl font-medium">Responsive</h3>
+                    <p>
+                      AyiPedia dirancang untuk menjadi responsif dan mudah diakses dari berbagai perangkat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full my-8">
+                <div class="flex items-center justify-center">
+                  <img
+                    src="img/icon/retreat.png"
+                    alt="handshake"
+                    class="w-[100px] my-4 mr-2"
+                  />
+                  <div>
+                    <h3 class="text-2xl font-medium">Menyenangkan</h3>
+                    <p>
+                      Website ini dirancang untuk memberikan pengalaman pembelajaran yang menyenangkan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a href="about.html" target="_blank">
+              <div
+                class="px-5 py-3 border rounded-full text-center group cursor-pointer lg:hidden hover:bg-slate-800 duration-300 transition"
+              >
+                <h3 class="group-hover:text-white text-base text-neon-blue-0 transition duration-300">
+                  Jelajahi lebih banyak tentang kami
+                </h3>
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about section end-->
     </main>
     <div class="mt-80"></div>
     <script src="script.js"></script>
